@@ -1,6 +1,6 @@
 import BasicRichTextEditor from './Basic RTE/components/BasicRichTextEditor';
 import RichTextEditorUsingPlugins from './Plugin RTE/components/RichTextEditorUsingPlugins';
-import CustomizedRichTextEditor from './Customised RTE /components/CustomizedRichTextEditor';
+import CustomizedRichTextEditor from './Customised RTE/components/CustomizedRichTextEditor';
 import EntityEditorExample from './Entity/EntityEditorExample';
 import LinkEditorExample from './Entity/LinkEditorExample';
 import MediaEditorExample from './Media/MediaEditorExample';

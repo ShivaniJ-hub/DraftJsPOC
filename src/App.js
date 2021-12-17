@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import BasicRichTextEditor from './Basic RTE/components/BasicRichTextEditor';
+import RichTextEditorUsingPlugins from './Plugin RTE/components/RichTextEditorUsingPlugins';
+import CustomizedRichTextEditor from './Customised RTE /components/CustomizedRichTextEditor';
+import EntityEditorExample from './Entity/EntityEditorExample';
+import LinkEditorExample from './Entity/LinkEditorExample';
+import MediaEditorExample from './Media/MediaEditorExample';
+import HTMLConvertExample from './Convert/HTMLConvertExample';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BasicRichTextEditor/>
+      {/* <CustomizedRichTextEditor/> */}
+      {/* <RichTextEditorUsingPlugins/> */}
+      {/* <EntityEditorExample/> */}
+      {/* <LinkEditorExample/> */}
+      {/* <MediaEditorExample/> */}
+      {/* <HTMLConvertExample/> */}
     </div>
   );
 }
